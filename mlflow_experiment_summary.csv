@@ -1,0 +1,14 @@
+run_name,status,start_time,params.explanation_method,params.test_samples_explained,params.model,params.evaluation_dataset,params.decision_threshold,params.smote_sampling_strategy,params.random_state,params.n_estimators,params.dataset,params.max_depth,params.learning_rate,params.max_iter,params.purpose,metrics.mean_abs_shap_V10,metrics.mean_abs_shap_V4,metrics.mean_abs_shap_V12,metrics.mean_abs_shap_Amount,metrics.mean_abs_shap_V14,metrics.precision,metrics.recall,metrics.f1_score,metrics.pr_auc,metrics.roc_auc,metrics.f1,metrics.test_accuracy
+XGBoost_SHAP_Explainability,FINISHED,2026-10-12 08:33:06.158000+00:00,SHAP TreeExplainer,1000,Baseline XGBoost,,,,,,,,,,,0.5502785444259644,1.161103367805481,0.6969245672225952,0.2917174994945526,0.6238728165626526,,,,,,,
+XGBoost_SMOTE_Evaluation,FINISHED,2026-10-12 08:33:05.552000+00:00,,,XGBoost + Smote,untouched test set,0.5,,,,,,,,,,,,,,0.85,0.9714285714285714,0.9066666666666666,0.9669103954224955,,,
+Baseline_XGBoost_Evaluation,FINISHED,2026-10-12 08:33:05.479000+00:00,,,Baseline XGBoost,untouched test set,0.5,,,,,,,,,,,,,,0.9428571428571428,0.9428571428571428,0.9428571428571428,0.9662606677339065,,,
+XGBoost_SMOTE,FINISHED,2026-10-12 08:33:03.102000+00:00,,,XGBoost SMOTE,,,0.1,43,100,SMOTE resampled training data,6,0.1,,,,,,,,,,,,,,
+LightGBM - Evaluation,FINISHED,2026-10-12 08:33:02.885000+00:00,,,LightGBM,,,,,,raw imbalanced,,,,,,,,,,0.32222222222222224,0.8285714285714286,,,0.8991747132128414,0.464,
+XGBoost - Evaluation,FINISHED,2026-10-12 08:33:02.455000+00:00,,,XGBoost,,,,,,raw imbalanced,,,,,,,,,,0.9428571428571428,0.9428571428571428,,,0.9925332177931832,0.9428571428571428,
+Random Forest - Evaluation,FINISHED,2026-10-12 08:33:02.200000+00:00,,,Random Forest,,,,,,raw imbalanced,,,,,,,,,,0.8857142857142857,0.8857142857142857,,,0.9851757860856648,0.8857142857142857,
+Logistic Regression - Evaluation,FINISHED,2026-10-12 08:33:01.864000+00:00,,,Logistic Regression,,,,,,raw imbalanced,,,,,,,,,,0.8157894736842105,0.8857142857142857,,,0.9972889329041842,0.8493150684931506,
+LightGBM,FINISHED,2026-10-12 08:32:59.796000+00:00,,,LightGBM,,,,,100,raw imbalanced,-1,0.1,,,,,,,,,,,,,,
+XGBoost,FINISHED,2026-10-12 08:32:58.486000+00:00,,,XGBoost,,,,,100,raw imbalanced,6,0.1,,,,,,,,,,,,,,
+Random Forest,FINISHED,2026-10-12 08:32:14.644000+00:00,,,Random Forest,,,,,100,raw imbalanced,,,,,,,,,,,,,,,,
+Logistic Regression,FINISHED,2026-10-12 08:32:14.078000+00:00,,,Logistic Regression,,,,,,raw imbalanced,,,1000,,,,,,,,,,,,,
+upbeat-gull-235,FINISHED,2026-10-12 08:30:23.880000+00:00,,,test,,,,,,,,,,testing MLflow setup,,,,,,,,,,,,0.95
