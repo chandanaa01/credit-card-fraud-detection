@@ -120,6 +120,4 @@ The notebook filename and additional artifacts should be updated to match the fi
 - Add automated testing and reproducible environment setup.
 - Investigate deployment and production monitoring requirements.
 
-## Disclaimer
 
-This project is an educational machine learning prototype. It is not intended for direct use in banking operations or automated decisions affecting real customers.
